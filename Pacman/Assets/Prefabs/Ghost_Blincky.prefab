@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3899861369383500875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 566449572780379496, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566449572780379496, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 566449572780379496, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 705943046132408955, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: initialDirection.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082177171096863439, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453259931827397464, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+      propertyPath: m_Name
+      value: Ghost_Blincky
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+--- !u!1 &6476387865643912471 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8070405673529389404, guid: 9a6f7f57979aaaa4b90840eb8e872551, type: 3}
+  m_PrefabInstance: {fileID: 3899861369383500875}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6775344974445952806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6476387865643912471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de9fa2a932fb3b142b42d35da41847e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: afc3b534b8a93544984cf1676ba61ae4, type: 3}
+  - {fileID: 21300000, guid: 6f51e42bf59063c4ab7a5608a42bd23d, type: 3}
+  animationTime: 0.25
+  loop: 1
